@@ -1,0 +1,32 @@
+.myshifts-container {
+    background-color: white;
+    padding: 40px 50px;
+    width: 600px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    border-radius: 5px;
+}
+
+.myshifts-container h1 {
+    margin: 20px 0;
+    color: rgb(48, 124, 150);
+}
+
+.myshifts-holder div:last-of-type {
+    border-bottom: none;
+}
+
+.myshifts-desc {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    font-size: 10px;
+    font-weight: 700;
+}
+
+@media (max-width: 676px) {
+    .myshifts-container {
+        width: 100%;
+        min-width: 95%; 
+        margin-left: 2.5%;
+        padding: 2.5%;
+    }
+}

@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    background-color: rgb(48, 124, 150)!important;
+}
+
+h1, button {
+    font-family: 'Quicksand', sans-serif!important;
+}
+
+button, button:active, button:focus {
+    outline: none!important;
+}
+
+input {
+    outline: none;
+    width: 100%;
+    border-radius: 5px;
+    padding: 8px;
+    margin: 3px 0;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.16), 0 1px 3px rgba(0,0,0,0.23);
+    transition: .1s ease;
+    border: 1px solid white;
+}
+
+label, p {
+    font-family: 'Raleway';
+    color: #292929;
+}
+
+label {
+    float: left;
+}
+
+input:focus {
+    box-shadow: 0 3px 4px rgba(0,0,0,0.16), 0 2px 5px rgba(0,0,0,0.23);
+    border: 1px solid rgb(48, 124, 150);
+}
+
+.page-wrapper {
+    width: 100%;
+    min-height: 90vh;
+    padding: 50px 0;
+    display: grid;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+}
+
+/* .nav-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.nav-container div {
+    margin: auto 15px;
+}
+
+.nav-container div h1 {
+    font-weight: 700;
+    color: lightblue;
+    pointer-events: none;
+}
+
+.nav-container nav ul {
+    display: flex;
+    margin: 20px;
+    text-align: center;
+    float: right;
+}
+
+.nav-container nav ul li {
+    margin: auto 15px;
+    list-style: none;
+}
+
+.nav-container nav ul li a {
+    color: lightblue;
+    text-decoration: none;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+}
+
+.nav-container nav ul li a:hover {
+    color: white;
+} */
+
+.btn-small {
+    margin: 10px;
+    width: 150px;
+    padding: 5px;
+    border: none;
+    outline: none;
+    transition: .1s ease;
+    cursor: pointer;
+    border-radius: 2px;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.btn-big {
+    margin-top: 10px;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    outline: none;
+    transition: .1s ease;
+    cursor: pointer;
+    border-radius: 2px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.btn-green {
+    background-color: rgb(60, 170, 60);
+    color: white;
+}
+
+.btn-green:hover {
+    background-color: rgb(77, 197, 77);
+}
+
+.btn-blue {
+    background-color: rgb(48, 124, 150);
+    color: white;
+}
+
+.btn-blue:hover {
+    background-color: rgb(53, 142, 172);
+}
+
+.btn-red {
+    background-color: rgb(156, 48, 48);
+    color: white;
+}
+
+.btn-red:hover {
+    background-color: rgb(202, 43, 43);
+}
+
+.btn-gray {
+    opacity: .5;
+    background-color: rgb(146, 146, 146);
+    color: rgb(116, 116, 116);
+    pointer-events: none;
+    cursor: none;
+}
+
+
+.mt {
+    margin-top: 10px;
+}
+
+.link {
+    color: blue;
+    cursor: pointer;
+    border: none;
+}
+
+.link:hover {
+    color: lightblue;
+}
+
+@media (max-width: 676px) {
+    .page-wrapper {
+        width: 95%;
+        /* margin-left: 2.5%; */
+        align-content: inherit;
+        justify-content: inherit;
+    }
+}

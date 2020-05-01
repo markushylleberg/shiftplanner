@@ -1,0 +1,20 @@
+.shift-entry {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-self: center;
+    padding: 10px 0;
+    border-bottom: 1px solid lightgray; 
+}
+
+.shift-entry p {
+    margin-bottom: 0!important;
+}
+
+.not-available {
+    background-color: rgb(179, 179, 179);
+}
+
+.not-available p {
+    color: rgb(156, 156, 156)!important;
+}

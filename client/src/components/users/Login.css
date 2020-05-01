@@ -1,0 +1,26 @@
+.login-form {
+    background-color: white;
+    padding: 40px 50px;
+    width: 400px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    border-radius: 5px;
+}
+
+.login-form h1 {
+    margin: 20px 0;
+    color: rgb(48, 124, 150);
+}
+
+.login-errormsg {
+    font-size: 10px;
+    color: red;
+    margin: 5px 0;
+}
+
+@media (max-width: 676px) {
+    .login-form {
+        width: 100%;
+        margin-left: 2.5%;
+        padding: 10px 2.5%;
+    }
+}
